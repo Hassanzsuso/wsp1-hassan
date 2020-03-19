@@ -7,6 +7,7 @@
     <title>Document</title>
 </head>
 <body>
-     
+    <h1>Hej <?php echo &_GET["name"]; ?> </h1>
+    <p>Din e-postadress är <?php $_GET["e-mail"]: ?></p>
 </body>
 </html>
